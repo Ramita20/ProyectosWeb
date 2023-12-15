@@ -1,0 +1,399 @@
+@font-face {
+  font-family: mooli-regular;
+  src: url(./fonts/Mooli-Regular.ttf);
+}
+
+@font-face {
+  font-family: monserrat-italic;
+  src: url(./fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: monserrat;
+  src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body {
+  font-size: 16px !important;
+}
+
+.color-fondo {
+  background: linear-gradient(40deg, #003566, 70%, #ffc300);
+}
+
+.estilo-boton {
+  font-family: monserrat-italic !important;
+  background-color: #000814;
+  border: 2px solid #ffd60a;
+  border-radius: 5px;
+  color: #ffc300;
+  cursor: pointer;
+}
+
+.estilo-boton:hover {
+  background-color: #001d3d;
+}
+
+.disenio-ingreso {
+  font-family: monserrat !important;
+  color: #ffc300;
+  background-color: #000814;
+  border: 2px solid #ffd60a;
+  border-radius: 5px;
+  font-size: 16px !important;
+}
+
+.disenio-ingreso::placeholder {
+  font-family: monserrat-italic !important;
+  color: #ffc300;
+}
+
+.disenio-ingreso:focus {
+  border-color: rgb(203, 132, 0);
+  background-color: #001021;
+  outline: none;
+}
+
+/* Cabecera */
+
+#cabecera-pagina {
+  text-align: center;
+  height: 60px;
+  background-color: #000814;
+}
+
+#cabecera-pagina h1 {
+  font-family: mooli-regular !important;
+}
+
+#icono-sol {
+  max-width: 40px;
+  margin-right: 250px;
+  padding-top: 10px;
+}
+
+#nombre-banco {
+  color: #ffd60a;
+  margin: -40px 0 0 10px;
+}
+
+#logueado-como {
+  font-family: mooli-regular !important;
+  position: absolute;
+  color: #ffd60a;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+#salir-boton {
+  font-family: mooli-regular !important;
+  position: absolute;
+  color: #ffd60a;
+  text-decoration: none;
+  margin-left: 465px;
+  margin-top: -40px;
+}
+
+#salir-boton:hover {
+  text-decoration: underline;
+}
+
+/* Login */
+
+#pag-login {
+  height: 500px;
+}
+
+#form-login {
+  font-family: monserrat !important;
+  color: #ffd60a;
+  background-color: rgba(0, 29, 61, 0.5);
+  text-align: center;
+  width: 350px;
+  height: 480px;
+  padding-top: 20px;
+}
+
+#user,
+#password {
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 15em;
+}
+
+#captcha {
+  margin-left: 23px;
+}
+
+#ingresar-btn {
+  margin-top: 20px;
+  padding: 5px 10px;
+}
+
+#register {
+  font-size: 15px;
+  text-align: left;
+  margin-top: 55px;
+  margin-left: 55px;
+}
+
+#register a {
+  text-decoration: none;
+  color: #ffc300;
+  margin-left: 10px;
+}
+
+#register a:hover {
+  text-decoration: underline;
+  color: rgb(203, 132, 0);
+}
+
+#sol {
+  position: absolute;
+  background-color: #ffd60a;
+  border-bottom-left-radius: 100%;
+  width: 100px;
+  height: 100px;
+  margin-left: 67.25em;
+}
+
+#verificacion {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  margin-left: 489px;
+  margin-top: -252px;
+  z-index: 2;
+  user-select: none;
+  pointer-events: none;
+}
+
+#verificacion-fondo {
+  position: absolute;
+  background-color: white;
+  border: 3px solid black;
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  margin-left: 473px;
+  margin-top: -270px;
+  z-index: 1;
+  user-select: none;
+  pointer-events: none;
+}
+
+#celular-mano-img {
+  position: absolute;
+  width: 350px;
+  margin-left: 400px;
+  margin-top: -372px;
+}
+
+#info-fondo {
+  position: absolute;
+  margin-left: 750px;
+  margin-top: -300px;
+}
+
+#info-fondo h2,
+#formulario-login h3 {
+  font-family: monserrat !important;
+}
+
+#info-fondo p {
+  font-family: monserrat-italic !important;
+}
+
+/* Inicio */
+
+#inicio {
+  display: flex;
+  text-align: center;
+  color: #ffd60a;
+}
+
+#side-bar {
+  display: flex;
+  flex-direction: column;
+  font-family: monserrat !important;
+  color: #ffd60a;
+  background-color: rgba(0, 29, 61, 0.5);
+  text-align: center;
+  width: 350px;
+  padding-top: 20px;
+}
+
+#side-bar div {
+  align-self: center;
+}
+
+#info-transferencias {
+  border: 1px solid #000814;
+  border-radius: 5px;
+  background-color: #003566;
+  padding: 10px 10px 0 10px;
+  overflow-y: auto;
+  max-height: 400px;
+}
+
+#info-transferencias p {
+  margin: 0;
+}
+
+#info-transferencias span {
+  font-family: monserrat-italic !important;
+  text-decoration: underline;
+  color: #FFC300;
+}
+
+#info-cliente {
+  font-family: monserrat !important;
+  text-shadow: 1px 1px 1px #000814;
+}
+
+#bienvenida {
+  padding-left: 40px;
+}
+
+#info-destinatarios {
+  display: grid;
+  margin-left: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+#add-caja-btn,
+#add-destinatario-btn {
+  align-self: center;
+  width: 60px;
+  height: 60px;
+  margin-left: 60px;
+  border-radius: 50%;
+  background: none;
+}
+
+#add-caja-btn:hover,
+#add-destinatario-btn {
+  transform: scale(1.3, 1.3);
+}
+
+#add-caja-btn:active,
+#add-destinatario-btn {
+  transform: scale(1.1, 1.1);
+}
+
+#info-cajas div {
+  border: 1px solid #000814;
+  border-radius: 5px;
+  width: 230px;
+  background-color: #003566;
+}
+
+#info-destinatarios div {
+  border: 1px solid #000814;
+  border-radius: 5px;
+  width: 230px;
+  background-color: #003566;
+  padding: 10px;
+}
+
+#cajas-modal {
+  display: flex;
+}
+
+#cajas-modal div {
+  align-self: center;
+  border: 1px solid #000814;
+  border-radius: 5px;
+  width: 230px;
+  background-color: #003566;
+}
+
+/* Página registro */
+
+#pag-registro {
+  height: 500px;
+}
+
+#form-registro {
+  font-family: monserrat !important;
+  color: #ffd60a;
+  background-color: rgba(0, 29, 61, 0.5);
+  border-radius: 5px;
+  width: 600px;
+  height: 480px;
+  padding-top: 20px;
+  margin-left: 290px;
+}
+
+#form-registro input {
+  height: 13px;
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 12em;
+}
+
+#form-registro label {
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+#form-registro #right-column {
+  position: absolute;
+  margin-left: 330px;
+  margin-top: -230px;
+}
+
+#form-registro #left-column {
+  margin-left: 55px;
+}
+
+#form-registro #captcha {
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-bottom: 30px;
+}
+
+#registro-btn {
+  margin-left: 250px;
+}
+
+#regresar {
+  margin-left: 265px;
+}
+
+#registro-btn {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  padding: 5px 10px;
+}
+
+#regresar {
+  font-size: 15px;
+  text-align: left;
+  text-decoration: none;
+  color: #ffc300;
+}
+
+#regresar:hover {
+  text-decoration: underline;
+  color: rgb(203, 132, 0);
+}
+
+/* Pie de página */
+
+#pie-pagina {
+  text-align: center;
+  color: white;
+  background-color: #000814;
+  padding: 1px 0 1px 0;
+}
